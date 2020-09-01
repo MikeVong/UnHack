@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+}
+
+.qsubmit {
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 15px;
+  margin: center;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+.form-signin {
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 25px;
+}
+
+.d-block {
+  height: 500px;
+}
+
+.jumbotron {
+  margin-bottom: unset;
+}
+
+#contact {
+  padding-top: 2%;
+  padding-left: 14%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.about {
+  text-align: center;
+  color: white;
+}
+
+.questionnaire {
+  padding: 20px;
+  margin: 15px;
+  border-radius: 25px;
+  background-color: white;
+
+}
+
+#questions {
+  text-align: center;
+}
+
+#accountJumbo {
+  text-align: center;
+}
+
+/* .form-results {
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: 10%;
+  border: 2px solid gray;
+  background-color: white;
+} */
+
+.account {
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: auto;
+  border: 2px solid gray;
+  border-radius: 0px;
+  background-color: white;
+}
+#eligibleTitle {
+  text-align: center;
+  padding: 20px;
+}
+.jumbotron {
+  background-image: url('../images/blue.jpg');
+  color: #ffffff;
+}

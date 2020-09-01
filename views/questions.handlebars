@@ -1,0 +1,215 @@
+<div class = "jumbotron" id="questions">
+    <h1>Questionnaire</h1>
+    <a>Complete the following form below and submit when finished. Once your form has been reviewed, you can view your status on the eligibility page of your account.</a>
+</div>
+<!--Modal-->
+      <div class="modal fade" id="#myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <h5>Please fill in all the entry.</h5>
+              <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<form class = "questionnaire">
+    <h2>Personal Information</h2>
+    <br>
+        <div class="form-row">
+
+            <div class="form-group col-md-4">
+
+                <label>Email Address:</label>
+
+
+                <input id="email" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label>First Name:</label>
+                <input id="firstName" type="text" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label>Last Name:</label>
+                <input id = "lastName" type="text" class = "form-control">
+            </div>
+
+        </div>
+
+        <div class="form-group">
+                <label>Street Address:</label>
+                <input id = "streetAddress" class = "form-control">
+        </div>
+        
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label>City:</label>
+                <input id = "city" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+            <label>State:</label>
+                <input id = "state" class = "form-control">
+            </div>
+
+            <div class = "form-group col-md-4">
+                <label>Zip Code:</label>
+                <input id = "zip" class = "form-control">
+            </div>
+
+        </div>
+
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label>Phone Number:</label>
+                <input id = "phoneNum" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-6">
+                    <label>Birth Date: (mm/dd/y)</label>
+                    <input id = "birthDate" class = "form-control">
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+        <h2>Work History</h2>
+        <small class = "form-text text-muted">(Please insert your most recent work information)</small>
+        <br>
+         <div class="form-row">
+            <div class="form-group col-md-4">
+                    <p>Employer Name:</p>
+                    <input id = "empName" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                    <p>Job Address:</p>
+                    <input id = "jobAddress" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                    <p>Job City:</p>
+                    <input id = "workCity" class = "form-control">
+            </div>
+
+         </div>
+
+         <div class="form-row">
+            <div class="form-group col-md-4">
+                    <p>Main State Location:</p>
+                    <input id = "mainStateLoc" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                    <p>Work Zip Code:</p>
+                    <input id = "workZip" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-4">
+                    <p>Company Phone Number:</p>
+                    <input id = "companyPhone" class = "form-control">
+            </div>
+
+         </div>
+         <div class="form-row">
+            <div class="form-group col-md-3">
+                    <p>First Start Date: (mm/dd/yy)</p>
+                    <input id = "firstStartDate" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-3">
+                    <p>Last Date Worked: (mm/dd/yy)</p>
+                    <input id = "lastDateWorked" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-3">
+                    <p>Days Worked:</p>
+                    <input id = "daysWorked" class = "form-control">
+            </div>
+
+            <div class="form-group col-md-3">
+                    <p>States Worked:</p>
+                    <input id = "statesWorked" class = "form-control">
+            </div>
+
+         </div>
+
+                    <p>Reason For Unemployment:</p>
+                    <textarea id = "reasonUnemployed" class = "form-control" type = "text"></textarea>
+
+        <hr>
+        <h2>Eligibility Information</h2>
+        <br>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <p>Quarter Pay:</p>
+                    <input id = "quarterPay" class = "form-control">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <p>Base Earnings:</p>
+                    <input id = "baseEarnings" class = "form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for = "ableWork">Ability to Work:</label>
+                    <select name="ableWork" id="ableWork" class = "form-control">
+                        <option value="null" aria-placeholder="placeholder"></option>
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for = "jobLossFault">Job Loss Fault:</label>
+                    <select name="jobLossFault" id="jobLossFault" class = "form-control">
+                        <option value="null" aria-placeholder="placeholder"></option>
+                        <option value="true">resigned</option>
+                        <option value="false">fired</option>
+                    </select>
+                </div>
+            </div>
+
+        <hr>
+        <h2>Payment Information</h2>
+            <br>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <p>Bank Name:</p>
+                    <input id = "bankName" class = "form-control">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <p>Routing Number:</p>
+                    <input id = "routingNumber" class = "form-control">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <p>Account Number:</p>
+                    <input id = "accountNumber" class = "form-control">
+                </div>
+
+            </div>
+        <hr>
+    </div>
+</form>
+    <div class="text-center">
+        <button class = "btn btn-primary qsubmit" id="submit">Submit</button>
+        <button class = "btn btn-primary qsubmit" id="submitEdit">Submit</button>
+    </div>
+<footer>
+<!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://github.com/ChristineDang/group-project-2"> UnHacked</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<script src="../js/questions.js"></script>
