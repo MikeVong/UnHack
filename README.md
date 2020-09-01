@@ -1,8 +1,8 @@
-# UnHack
+# Unhack Unemployment
 
 ## Description
 
-A faster and more efficient way to register for unemployment.
+A faster and more efficient way to check if you qualify for unemployment.
 
 ## Deployment 
 
